@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "jasmine": true,
+    "browser": true
+  },
+  "rules": {
+    "init-declarations": 1,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
